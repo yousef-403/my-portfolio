@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #ecf0f3;
+  color: #1f2937;
+}
+
+
+
+@media (max-width:900px){
+  html{
+    font-size: 80%;
+  }
+ 
+}
