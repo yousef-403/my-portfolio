@@ -9,8 +9,8 @@ const About = () => {
           <h2 className='text-slate-600 text-2xl'>About</h2>
           <h3>Who I Am</h3>
           <p>I am Yousef Maghraby frontend developer, I build simple, beautiful  interface,
-          I develop many types of frontends by React &&  Next,
-          I'm passionate to learn more and more.    </p>
+          I develop many types of frontends by React, Next,
+          I passionate to learn more and more.    </p>
           
         </div>
         <div className='xl:w-1/3 '>

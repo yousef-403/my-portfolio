@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import { CiMenuBurger } from "react-icons/ci";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { FaGithub , FaLinkedinIn ,FaUser } from "react-icons/fa";
-import { BsEnvelope } from "react-icons/bs";
+
 
 const NavBar = () => {
   const [nav,setNav] = useState(false);
@@ -35,7 +35,7 @@ const NavBar = () => {
            <h1 className='text-5xl font-light'>YM</h1>
            <IoIosCloseCircleOutline  onClick={handleNav} size={30}/>
            </div>
-              <p className='pt-5 '>Let's build something legendary together</p>
+              <p className='pt-5 '>Let build something legendary together</p>
             
             <ul className=' uppercase text-sm flex flex-col gap-4 py-10 px-1'>
               <Link href='/#home'> <li>Home</li></Link>
@@ -46,7 +46,7 @@ const NavBar = () => {
               <Link href='/'> <li>Contact</li></Link>
             </ul>
             <div className='fixed bottom-10'>
-              <p>LET'S CONNECT</p>
+              <p>LET CONNECT</p>
 
               <ul className='flex pt-4 text-xl'>
               <Link href='/'><li className='me-5 shadow-xl p-2 rounded-lg'><FaGithub /></li></Link>
