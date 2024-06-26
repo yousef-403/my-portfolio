@@ -20,7 +20,7 @@ const Projects = () => {
          </Link>
        </div>
        <div className="lg:w-1/2 w-full ">
-       <Link href="https://github.com/yousef-403/Dashboard-ractjs" passHref={true} target="blank">
+       <Link href="https://github.com/yousef-403/dashbard-reactjs" passHref={true} target="blank">
        <Image className=" image w-4/5 shadow-l  hover:p-1" src ={img2} width={500} height={500} alt="project two"/>
        <h3 className="py-3">React Medical Dashboard </h3>
           </Link>
