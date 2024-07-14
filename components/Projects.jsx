@@ -14,7 +14,7 @@ const Projects = () => {
      <h2 className="my-4 text-slate-600 text-2xl">Projects</h2>
      <div className="flex flex-wrap  justify-center">
        <div className=" lg:w-1/2 w-full ">
-         <Link href="https://cava-clone.netlify.app" passHref={true} target="blank">
+         <Link href="https://cava-ecommerce-app.netlify.app" passHref={true} target="blank">
            <Image className=" image w-4/5 shadow-l  hover:p-1" src ={img1} width={500} height={500} alt="project one"/>
            <h3 className="py-3">Html Css Javascript E-Commerce</h3>
          </Link>
@@ -26,7 +26,7 @@ const Projects = () => {
           </Link>
        </div>
        <div className="lg:w-1/2 w-full">
-       <Link href="https://github.com/yousef-403/React-Ecommerce" passHref={true} target="blank">
+       <Link href="https://traning-ecommerce.netlify.app" passHref={true} target="blank">
        <Image className=" image w-4/5 shadow-l  hover:p-1" src ={img3} width={500} height={500} alt="project three"/>
        <h3 className="py-3">React E-Commerce</h3>
           </Link>
